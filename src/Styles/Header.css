@@ -1,0 +1,61 @@
+/* -------------------
+NAVBAR/HEADER STYLES
+------------------- */
+
+.header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  line-height: 60px;
+  color: #FDFFFF;
+  background: rgb(30,51,141);
+  background: linear-gradient(90deg, rgba(30,51,141,1) 0%, rgba(84,100,169,1) 100%);
+}
+
+.headerContainer {
+  margin: 0;
+  padding: 0 50px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+#leaveButton {
+  background-color: rgb(190, 0, 0);
+  border: none;
+  color: #FDFFFF;
+  padding: 10px 26px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#leaveButton:hover {
+  background-color: rgb(138, 0, 0);
+}
+
+.icon {
+  vertical-align: middle;
+  height: 24px;
+  width: 24px;
+}
+#audioButton{
+  background-color: rgba(39, 37, 36, 0.747);
+  border: none;
+  color: rgb(36, 36, 36);
+  text-align: left;
+  font-size: 21px;
+  width: 65px;
+  padding: 4px;
+}
+#videoAudioPanel{
+  background-color: rgba(226, 121, 15, 0.747);
+  width: 150px;
+}
+
+button {
+  margin-bottom: 0;
+}

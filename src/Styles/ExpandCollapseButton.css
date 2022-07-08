@@ -1,0 +1,10 @@
+button {
+        position: inherit;
+        width: fit-content;
+        padding: 0;
+        background-color: transparent;
+        border: none;
+        margin: 0;
+        vertical-align: middle;
+}
+

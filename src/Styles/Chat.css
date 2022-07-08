@@ -1,0 +1,40 @@
+.chat {
+  width: 300px;
+  border: 3px solid black;
+  height: 500px;
+  overflow: hidden;
+}
+
+.chatHeader {
+  font-size: 20px;
+  margin: 4px 0;
+}
+
+.chatDisplay {
+  height: 85%;
+  overflow-y: scroll;
+}
+
+#chatInput {
+  width: 100%;
+  padding: 8px 16px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.message {
+  margin: 4px 0;
+  padding: 5px;
+  width: 80%;
+}
+
+.sent {
+  margin-left: auto;
+  text-align: right;
+  background-color: rgb(72, 72, 255);
+}
+
+.received {
+  text-align: left;
+  background-color: rgb(146, 146, 146);
+}

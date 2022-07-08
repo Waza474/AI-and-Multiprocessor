@@ -1,0 +1,113 @@
+.create_meeting{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a4c8f8;
+  }
+  .create_meeting_form{
+    position: relative;
+    display:block;
+    background-color: white;
+    padding:30px;
+    z-index: 2;
+      
+  }
+  .create_meeting_form lable{
+    display:block;
+    color: #53565a;
+    font-size:12px;
+    margin-bottom:5px;
+    transition: 0.4s;
+  }
+  .create_meeting_form input{
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    left : 500px;
+    background-color: rgb(174, 184, 179);
+    border-radius: 8px;
+    width: 150px;
+  
+  } 
+  #createroom{
+    text-align: center;
+    position: relative;
+    left: 0px;
+    margin-bottom: 5px;
+    background-color: rgba(12,42,164,0.53);
+    color: black;
+    padding: 5px 1px;
+    border-radius: 12px;
+    border: 1px solid #045385;
+    width: 100px;
+  }
+  
+  .create_meeting_form input[type="submit"]{
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: rgb(174, 184, 179);
+    background-size: 200%;
+    transition: 0.4s;
+    color: rgb(75, 71, 71);
+    cursor: pointer;
+  }
+  
+  .join_meeting{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a4c8f8;
+  }
+  .join_meeting_form{
+    position: relative;
+    display:block;
+    background-color: white;
+    padding:30px;
+    z-index: 2;
+      
+  }
+  .join_meeting_form lable{
+    display:block;
+    color: #53565a;
+    font-size:12px;
+    margin-bottom:5px;
+    transition: 0.4s;
+  }
+  .join_meeting_form input{
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    left : 500px;
+    background-color: rgb(174, 184, 179);
+    border-radius: 8px;
+    width: 150px;
+  
+  } 
+  #joinmeeting{
+    text-align: center;
+    position: relative;
+    left: 0px;
+    margin-bottom: 5px;
+    background-color: rgba(12,42,164,0.53);
+    color: black;
+    padding: 5px 1px;
+    border-radius: 12px;
+    border: 1px solid #045385;
+    width: 100px;
+}
+  
+  .join_meeting_form input[type="submit"]{
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: rgb(174, 184, 179);
+    background-size: 200%;
+    transition: 0.4s;
+    color: rgb(75, 71, 71);
+    cursor: pointer;
+  }
+
+    
